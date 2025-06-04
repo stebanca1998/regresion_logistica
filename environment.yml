@@ -1,0 +1,20 @@
+# conda env create --file environment.yml
+name: regresion_logistica
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pandas
+  - seaborn
+  - scikit-learn
+  - pip
+  - pyprojroot
+  - python=3.12
+  - pip:
+    - pyhere
+    
